@@ -10,45 +10,84 @@ img {
 }
 
 body {
-    min-height: 550px;
-    background-image: url(../img/Ganancias.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-
+    background-color: rgb(250, 235, 237);
 
 }
 
-h1 {
-
+.title {
+    text-align: center;
     padding: 2rem;
 }
 
-h2 {
-    color: rgb(29, 28, 28);
+.formulario {
+    padding: 4rem;
+    display: inline
+}
+
+.carga {
+    padding: 15px;
+}
+
+.fecha {
+    width: 100px;
+}
+
+.cliente {
+    width: 200px;
+}
+
+.detalle {
+
+    width: 350px;
 
 }
 
-h3 {
-    padding: 3rem;
-    margin-top: 200px;
+.cantidad {
+    width: 50px;
 }
 
-.boton {
-    width: 500px;
-    background-color: grey;
-    border-radius: 15px;
-    font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 700;
-    color: rgb(246, 228, 228);
+.valorun {
+    width: 50px;
+}
+
+.valortot {
+    width: 90px;
+}
+
+.parrafo1 {
+    padding: 15px;
+}
+
+.ingresobtn {
+    padding: 10px;
+
+}
+
+.egresobtn {
+    padding: 10px;
+
+}
+
+.botones {
+    display: flex;
     padding: 1rem;
 }
 
-.boton:hover {
-    background-color: white;
-    color: black;
+.tabla {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: double;
+    
+}
+
+th {
+    border-style: double;
+    background-color: pink;
+}
+
+tr {
+    border-style: double;
+    background-color: blueviolet;
 }

@@ -4,18 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pre-Entrega 2 - Juan Pablo Rivero - Clase 59970</title>
+    <title>Pre-Entrega 3 - Juan Pablo Rivero - Clase 59970</title>
     <link rel="shortcut icon" href="./img/logo.png" type="Logo">
     <link rel="stylesheet" href="./css/sytle.css">
 
 </head>
 
 <body>
-    <h1 class="title1">Pre Entrega 2</h1>
-    <h2 class="title2">Aplicacion para Calcular la Ganancia, tomada de los Ingresos y Egresos que coloques</h2>
-    <h3 class="title3">Que tu Balance sea positivo, Mucha Suerte!!!</h3>
-    <button class="boton" onclick="iniciarRegistro()">Ingresa los montos de tus Ingresos o Egresos para Calcular tu
-        Ganancia</button>
+    <h1 class="title">Calculadora de Ingresos y Egresos</h1>
+    <div class="botones">
+        <p class="parrafo1">Seleccione el Tipo de Operacion</p>
+        <div class="submit">
+        <button id="ingresobtn">Ingreso</button>
+        <button id="egresobtn">Egreso</button>
+    </div>
+
+    </div>
+    <div class="formulario">
+
+        <form id="gastosCalc">
+
+            <div class="carga">
+                <label>Fecha <input id="fecha" type="date"></label>
+                <label>Cliente <input id="cliente" type="text"></label>
+                <label>Detalle <input id="detalle" type="text"></label>
+                <label>Cantidad <input id="cantidad" type="number"></label>
+                <label>Valor Unitario <input id="valorun" type="number"></label>
+                <!--label>Valor Total <input id="valortot" type="number"></label-->
+                <button id="agregaritem">Agregar Item</button>
+
+            </div>
+
+        </form>
+
+    </div>
+    
+    <table id="Tabla" class="tabla">
+        <thead>
+            <tr>
+                <th>Fecha</th>
+                <th>Cliente</th>
+                <th>Detalle</th>
+                <th>Cantidad</th>
+                <th>Valor Unitario</th>
+                <th>Valor Total</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
     <script src="./main.js"></script>
 </body>
 
