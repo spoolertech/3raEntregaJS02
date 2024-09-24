@@ -12,58 +12,58 @@
 
 <body>
     <h1 class="title">Calculadora de Ingresos y Egresos</h1>
-   
-    <div class="centrado">
-    <div class="formulario">
 
-        
+    <div class="centrado">
+        <div class="formulario">
+
+
 
             <div class="carga">
                 <form id="gastosCalc">
-                <label>Fecha <input id="fecha" type="date"></label>
-                <label>Cliente <input id="cliente" type="text"></label>
-                <label>Detalle <input id="detalle" type="text"></label>
-                <label>Cantidad <input id="cantidad" type="number"></label>
-                <label>Ingreso <input id="ingreso" type="number"></label>
-                <label>Egreso <input id="egreso" type="number"></label>
-                <button id="agregaritem" class="agregaritem">Agregar Item</button>
-            </form>
+                    <label>Fecha <input id="fecha" type="date"></label>
+                    <label>Cliente <input id="cliente" type="text"></label>
+                    <label>Detalle <input id="detalle" type="text"></label>
+                    <label>Cantidad <input id="cantidad" type="number"></label>
+                    <label>Ingreso <input id="ingreso" type="number"></label>
+                    <label>Egreso <input id="egreso" type="number"></label>
+                    <button id="agregaritem" class="agregaritem">Agregar Item</button>
+                </form>
             </div>
-     
+
+
+        </div>
+
+        <table id="Tabla" class="tabla">
+            <thead>
+                <tr class="carga">
+                    <th class="fecha">Fecha</th>
+                    <th class="cliente">Cliente</th>
+                    <th class="detalle">Detalle</th>
+                    <th class="cantidad">Cantidad</th>
+                    <th class="ingreso">Ingreso</th>
+                    <th class="egreso">Egreso</th>
+                    <th class="valorpar">Parcial</th>
+                </tr>
+            </thead>
+            <tbody class="planilla">
+
+            </tbody>
+
+        </table>
 
     </div>
-    
-    <table id="Tabla" class="tabla">
-        <thead>
-            <tr class="carga">
-                <th class="fecha">Fecha</th>
-                <th class="cliente">Cliente</th>
-                <th class="detalle">Detalle</th>
-                <th class="cantidad">Cantidad</th>
-                <th class="ingreso">Ingreso</th>
-                <th class="egreso">Egreso</th>
-                <th class="valorpar">Parcial</th>
-            </tr>
-        </thead>
-        <tbody class="planilla">
-
-        </tbody>
-       
-    </table>
-   
-</div>
-<div class="cuadro-totales">
-<div id="totalIngresos" class="totalIngresos">
-    <p>Total Ingresos $ </p>
-</div>
-<div id="totalEgresos" class="totalEgresos">
-    <p>Total Egresos $ </p>
-</div>
-<div id="total" class="total">
-    <p>Total Calculado $</p>
-</div>
-</div>
+    <div class="cuadro-totales">
+        <div id="totalIngresos" class="totalIngresos">
+            <p>Total Ingresos $ </p>
+        </div>
+        <div id="totalEgresos" class="totalEgresos">
+            <p>Total Egresos $ </p>
+        </div>
+        <div id="total" class="total">
+            <p>Total Calculado $</p>
+        </div>
+    </div>
     <script src="./main.js"></script>
 </body>
-<p>Pepe2</p>
+
 </html>
