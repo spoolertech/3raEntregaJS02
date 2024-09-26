@@ -27,31 +27,34 @@ body {
     width: 90px;
 }
 
+#fecha {
+    width: 100px;
+}
+
 .cliente {
-    width: 400px;
+    width: 380px;
 }
 
 .detalle {
 
-    width: 550px;
+    width: 500px;
 
 }
 
 .cantidad {
-    width: 50px;
+    width: 45px;
+}
+
+#cantidad {
+    width: 45px;
 }
 
 .ingreso {
-    width: 50px;
+    width: 45px;
 }
 
 .egreso {
-    width: 50px;
-}
-
-.valortot {
-    width: 90px;
-    align-items: center;
+    width: 45px;
 }
 
 .agregaritem {
@@ -85,13 +88,10 @@ th {
     align-items: center;
 }
 
-.totales {
-    border-style: double;
-    font-size: 20px;
-}
 
 .cuadro-totales {
     background-color: rgb(143, 167, 159);
-    padding: 4rem;
+    border-style: double;
+    padding: 1rem;
     text-align: right;
 }
